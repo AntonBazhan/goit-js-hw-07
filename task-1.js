@@ -9,4 +9,4 @@ const categoriesArray = [...totalCategories]
 Количество элементов: ${categories.children[1].children.length}`
   )
   .join("\n");
-console.log(categoriesArray);
+ console.log(categoriesArray);
