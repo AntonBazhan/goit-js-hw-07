@@ -7,14 +7,15 @@
     <h1>Привет, <span id="name-output">незнакомец</span>!</h1> */
 
 
-const input = document.getElementById("name-input");
+let input = document.getElementById("name-input");
 let nameOutput = document.getElementById("name-output");
 
 input.oninput = function () {
     if (input.value === '') {
-       nameOutput.innerHTML = nameOutput.textContent;
-    }
+       nameOutput.innerHTML = 'незнакомец';
+    } else{
     nameOutput.innerHTML = input.value;
+    }
 }
 
 
